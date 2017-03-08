@@ -24,7 +24,7 @@ class Car(the_object):
 
 
 	def car_doors(self,num_of_doors):
-			pass
+		pass
 
     def drive_car(self, moving_man):
         return moving_man
