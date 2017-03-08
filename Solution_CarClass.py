@@ -3,9 +3,9 @@ class Car(the_object):
 	def status(self,car_type,car_name,car_model,car_property):
 		"""attributes of the object"""
 		car_type="honda"
-		if car_name=" ":
+		if car_name==" ":
 			return "General"
-		if car_model=" ":
+		if car_model==" ":
 			return "GM"
 		car_property= car_name and car_model
 		self.car_type = car_type
